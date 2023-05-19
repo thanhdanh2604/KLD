@@ -1,0 +1,42 @@
+/* 
+Theme Name: Kim Long Diệp 
+Author: Thành Danh - Ondigitals
+Template: hello-elementor
+Version: 1.0.0
+*/
+
+/* Add your custom styles here */
+body{
+  color:white;
+}
+.header__icon-list{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap:10px;
+}
+a{
+  color:white;
+  font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+transition: 0.7s;
+
+}
+a:hover{
+  color:#FFA61A;
+transition: 0.7s;
+
+}
+#menu-main-menu .active a{
+  color:#FFA61A;
+}
+
+#menu-main-menu .active a::after,#menu-main-menu a:hover::after {
+  content: url(/wp-content/uploads/2023/05/menu-hover-effect.png);
+  position: absolute;
+  left: -1px;
+  top: 20px;
+
+}
